@@ -7,12 +7,12 @@ inserisci il suo cognome in una variabile;
 5-stampa la nuova password generata con nome+cognome+colore+21*/
 //prima di tutto devo inizializzare le variabili:
 
-const Name = prompt(`Come ti chiami?` , `scrivi il tuo nome`);
+const Name = prompt(`Come ti chiami?`);
 console.log(Name);
-const Surname = prompt(`Qual e il tuo cognome??` , `scrivi il tuo cognome(possibilmente scriverlo attaccato)`);
+const Surname = prompt(`Qual e il tuo cognome??`);
 console.log(Surname);
 
-const favouriteColor= prompt(`qual e il tuo colore preferito?` , `scrivi qual e il tuo colore preferito`);
+const favouriteColor= prompt(`qual e il tuo colore preferito?`);
 console.log(favouriteColor);
 console.log(Name + Surname + favouriteColor+21);
 
