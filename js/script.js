@@ -9,7 +9,7 @@ inserisci il suo cognome in una variabile;
 
 const Name = prompt(`Come ti chiami?` , `scrivi il tuo nome`);
 console.log(Name);
-const Surname = prompt(`Qual e il tuo cognome??` , `scrivi il tuo cognome`);
+const Surname = prompt(`Qual e il tuo cognome??` , `scrivi il tuo cognome(possibilmente scriverlo attaccato)`);
 console.log(Surname);
 
 const favouriteColor= prompt(`qual e il tuo colore preferito?` , `scrivi qual e il tuo colore preferito`);
