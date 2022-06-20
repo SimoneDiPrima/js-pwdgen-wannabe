@@ -18,4 +18,10 @@ const criteri = (Name + Surname + favouriteColor + 21);
 console.log(Name + Surname + favouriteColor+21);
 
 let newPassword = document.getElementById("my-password");
+
+// prima soluzione generazione password
 newPassword.innerHTML = `<strong>${criteri}</strong>`;
+//seconda soluzione generazione password
+document.getElementById("new-genpassword").innerHTML = `<strong>${Name}${Surname}${favouriteColor}21</strong>`;
+//terza soluzione generazione password
+document.getElementById("generated-password").innerHTML = `<strong>${Name + Surname + favouriteColor +21}</strong>`;
