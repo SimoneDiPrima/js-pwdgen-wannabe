@@ -14,9 +14,8 @@ console.log(Surname);
 
 const favouriteColor= prompt(`qual e il tuo colore preferito?`);
 console.log(favouriteColor);
+const criteri = (Name + Surname + favouriteColor + 21);
 console.log(Name + Surname + favouriteColor+21);
 
-const newPassword = document.getElementById("my-password");
-newPassword.innerHTML = `<strong>${newPassword}</strong>`;
-// newPassword.innerHTML = `<strong>${Name}</strong>`+`<strong>${Surname}</strong>`+`<strong>${favouriteColor}</strong>`+`<strong>21</strong>`;
-console.log(newPassword)
+let newPassword = document.getElementById("my-password");
+newPassword.innerHTML = `<strong>${criteri}</strong>`;
