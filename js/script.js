@@ -11,3 +11,11 @@ const Name = prompt(`Come ti chiami?` , `scrivi il tuo nome`);
 console.log(Name);
 const Surname = prompt(`Qual e il tuo cognome??` , `scrivi il tuo cognome`);
 console.log(Surname);
+
+const favouriteColor= prompt(`qual e il tuo colore preferito?` , `scrivi qual e il tuo colore preferito`);
+console.log(favouriteColor);
+console.log(Name + Surname + favouriteColor+21);
+
+const newPassword = document.getElementById(`my-password`);
+newPassword.innerHTML = `<strong>${Name}</strong>`+`<strong>${Surname}</strong>`+`<strong>${favouriteColor}</strong>`+`<strong>21</strong>`;
+console.log(newPassword);
